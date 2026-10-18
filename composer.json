@@ -1,0 +1,29 @@
+{
+    "name": "codatsoft/codatcars",
+    "description": "Codatsoft cars module: the shared car and colour catalogue, and a user's cars. Shared by Rafik, Mawfie and the other Codatsoft apps.",
+    "license": "MIT",
+    "type": "library",
+    "require": {
+        "php": "^8.4",
+        "laravel/framework": "^13.0",
+        "codatsoft/codatbase": "^4.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Codatsoft\\CodatCars\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Bassel Hadba",
+            "email": "bassel@codatsoft.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Codatsoft\\CodatCars\\CodatCarsServiceProvider"
+            ]
+        }
+    }
+}
